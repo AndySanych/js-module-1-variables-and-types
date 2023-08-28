@@ -107,10 +107,10 @@ console.log(`Число ${number} попадает в отрезок до ${x1} 
  */
 
 const isFriend = true;
-const isOnine = true;
+const isOnline = true;
 const isDnd = true;
 
-const canOpenChat = isFriend && isOnine && isDnd;
+const canOpenChat = isFriend && isOnline && isDnd;
 
 console.log('Можно открыть чат?', canOpenChat);
 
